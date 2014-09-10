@@ -26,9 +26,9 @@ var vowel_count = function(str){
   console.log("The number of vowels are: " + count);
 }
 
-// function that reverses a string
-
 vowel_count("What is going on guys?");
+
+// function that reverses a string
 
 var reverse = function reverse(str){
   str1 = str.split("").reverse().join("");
